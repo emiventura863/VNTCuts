@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="VNTCuts - Edición y postproducción audiovisual profesional. Publicidades, videoclips y contenido para redes sociales.">
+    <link rel="stylesheet" href="css/bootstrap-custom.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>VNTCuts</title>
+
+</head>
+
+<body>
+
+    <!-- <header class="headerinicio">
+            <div class="logo">
+                <img src="img/vntcuts5 blanco.png" alt="logoVNTCuts">                
+            </div>
+            
+            <nav class="navegador">
+                <a href=""> Inicio </a>
+                <a href=""> Servicios </a>
+                <a href=""> Portfolio </a>
+                <a href=""> Sobre mí </a>
+                <a href=""> Contacto </a>
+            </nav>
+            
+
+        </header> -->
+
+    <header class="headerinicio">
+        <!-- menu normal desde 768 para arriba (md) y hamburguesa con 768 para abajo -->
+        <nav class="navbar navbar-expand-md w-100 position-relative">
+
+            <a class="navbar-brand" href="index.html">
+                <img src="img/vntcuts5 blanco.png" alt="logo VNTCuts">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="menuPrincipal">
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- contenido principal -->
+    <main>
+
+        <!-- boostrap para el hero, 100% de ancho de la pantalla en todas las resoluciones, padding 0 -->
+        <section class="hero container-fluid p-0">
+
+            <!-- autoplay se reproduce solo, loop sin parar -->
+            <video autoplay loop playsinline controls muted>
+                <source src="videos/reelprincipal.mp4">
+            </video>
+
+            <h1 class="tagline">
+                Edición y postproducción audiovisual profesional
+            </h1>
+
+            <!-- <p class="tagline">
+                    Edición y postproducción audiovisual profesional
+                </p> -->
+
+        </section>
+
+        <section class="trabajosdestacados">
+
+            <h2 class="trabajosdestacadosh2">Trabajos destacados</h2>
+            <div class="linea-seccion"></div>
+
+            <div class="container">
+                <div class="row g-4">
+
+                    <div class="col-12 col-md-4">
+                        <div class="videosdestacados">
+                            <video controls muted>
+                                <source src="videos/trabajodestacado1.mp4">
+                            </video>
+                            <h3>Publicidad marca Seven Seven</h3>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="videosdestacados">
+                            <video controls muted>
+                                <source src="videos/trabajodestacado2.mp4">
+                            </video>
+                            <h3>Publicidad Pepsi</h3>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="videosdestacados">
+                            <video controls muted>
+                                <source src="videos/trabajodestacado3.mp4">
+                            </video>
+                            <h3>Publicidad Skin Club</h3>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <a href="portfolio.html" class="botonportfolio">
+                Ver portfolio completo
+            </a>
+
+        </section>
+
+        <section class="servicios" id="servicios">
+
+            <h2 class="serviciosh2">Servicios</h2>
+            <div class="linea-seccion"></div>
+
+            <div class="container">
+                <div class="row g-4 justify-content-center">
+
+                    <div class="col-12 col-md-6 col-lg-5">
+                        <div class="tarjetaservicios">
+                            <i class="bi bi-camera-reels"></i>
+                            <h3>Edición de video</h3>
+                            <p>Corte, montaje y sincronización de audios y videos.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-5">
+                        <div class="tarjetaservicios">
+                            <i class="bi bi-film"></i>
+                            <h3>Postproducción audiovisual</h3>
+                            <p>Corrección de color, efectos visuales y acabado final.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section id="contacto">
+            <div class="contactoh2">
+                <h2>¿Tenés algún proyecto? Contáctame</h2>
+            </div>
+
+            <!-- <a href="https://www.instagram.com/vntcuts/" class="contactoboton" target="_blank">
+                Solicitar presupuesto
+            </a> -->
+
+            <!-- 2° componente js de boostrap, modal para boton -->
+            <button type="button" class="btn btn-primary btn-lg contactoboton" data-bs-toggle="modal"
+                data-bs-target="#modalContacto">
+                Solicitar presupuesto
+            </button>
+
+            <div class="modal fade" id="modalContacto" tabindex="-1" aria-labelledby="modalContactoLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content bg-dark text-white">
+
+                        <div class="modal-header">
+                            <h2 class="modal-title fs-5" id="modalContactoLabel">Solicitar presupuesto</h2>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                                aria-label="Cerrar"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            Podés contactarte con VNTCuts por Instagram para consultar disponibilidad y presupuesto.
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+
+                            <button type="button" id="btnInstagram" class="btn btn-primary">
+                                Ir a Instagram
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4° componente boostrap toast -->
+            <div class="toast-container position-fixed top-0 end-0 p-3">
+
+                <div id="toastInstagram" class="toast" role="alert" data-bs-delay="4000">
+
+                    <div class="toast-header">
+                        <strong class="me-auto">VNTCuts</strong>
+                        <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+                    </div>
+
+                    <div class="toast-body">
+                        Redirigiendo a Instagram...
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+    <!-- pie de pagina -->
+    <footer>
+
+        <p>© 2026 VNTCuts - Postproducción audiovisual profesional</p>
+
+        <div class="redes">
+
+            <!-- 3° componente js de boostrap, tooltip para los iconos de redes -->
+            <a href="https://www.instagram.com/vntcuts/" target="_blank" rel="noopener" data-bs-toggle="tooltip"
+                data-bs-placement="top" title="Instagram oficial">
+                <i class="bi bi-instagram"></i>
+            </a>
+
+            <!-- <a href="https://www.instagram.com/vntcuts/">
+                <i class="bi bi-instagram"></i>
+            </a> -->
+
+            <!-- <a href="https://www.youtube.com/@vntcuts">
+                <i class="bi bi-youtube"></i>
+            </a> -->
+
+            <a href="https://www.youtube.com/@vntcuts" target="_blank" rel="noopener" data-bs-toggle="tooltip"
+                data-bs-placement="top" title="Canal de YouTube">
+                <i class="bi bi-youtube"></i>
+            </a>
+
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <!-- activacion de tooltip -->
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+
+        tooltipTriggerList.forEach(function (tooltipTriggerEl) {
+            new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+    </script>
+
+    <!-- activacion toast -->
+    <script>
+        const botonInstagram = document.getElementById("btnInstagram");
+        const toastElemento = document.getElementById("toastInstagram");
+
+        const toastBootstrap = new bootstrap.Toast(toastElemento);
+
+        botonInstagram.addEventListener("click", function () {
+            toastBootstrap.show();
+
+            setTimeout(function () {
+                window.open("https://www.instagram.com/vntcuts/", "_blank");
+            }, 1000);
+        });
+    </script>
+
+    <!-- <script src="js/script.js"></script> -->
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+
+// color principal de boostrap
+$primary: orange;
+
+// cambia color oscuro de boostrap
+$dark: rgb(5, 5, 5);
+
+// cambia la fuente base
+$font-family-base: Arial, sans-serif;
+
+@import "../node_modules/bootstrap/scss/bootstrap";

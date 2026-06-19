@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio de VNTCuts con trabajos de publicidad y videoclips realizados para distintas marcas y proyectos audiovisuales.">
+    <link rel="stylesheet" href="css/bootstrap-custom.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <header class="headerinterno">
+        <nav class="navbar navbar-expand-md w-100">
+
+            <a class="navbar-brand" href="index.html">
+                <img src="img/vntcuts5 blanco.png" alt="logo VNTCuts">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="menuPrincipal">
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </nav>
+
+
+    </header>
+
+    <main>
+
+        <section class="portfolio">
+
+            <h1>Portfolio</h1>
+            <div class="linea-seccion"></div>
+
+        </section>
+
+        <div class="filtroportfolio">
+            <button class="activo" data-filtro="todos">Todos</button>
+            <button data-filtro="publicidad">Publicidad</button>
+            <button data-filtro="videoclips">Videoclips</button>
+        </div>
+
+        <section class="trabajosportfolio">
+
+            <!-- <h2 class="trabajosdestacadosh2">
+                    Trabajos destacados
+                </h2> -->
+
+            <div class="container">
+                <div class="row g-4">
+
+                    <div class="col-12 col-md-6" data-categoria="videoclips">
+                        <video controls muted>
+                            <source src="videos/videotrabajo1.mp4">
+                        </video>
+                        <h3>Videoclip 1</h3>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-categoria="publicidad">
+                        <video controls muted>
+                            <source src="videos/trabajodestacado1.mp4">
+                        </video>
+                        <h3>Publicidad Seven Seven</h3>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-categoria="publicidad">
+                        <video controls muted>
+                            <source src="videos/trabajodestacado2.mp4">
+                        </video>
+                        <h3>Publicidad Pepsi</h3>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-categoria="videoclips">
+                        <video controls muted>
+                            <source src="videos/videotrabajo2.mp4">
+                        </video>
+                        <h3>Videoclip 2</h3>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-categoria="publicidad">
+                        <video controls muted>
+                            <source src="videos/trabajodestacado3.mp4">
+                        </video>
+                        <h3>Publicidad Skin Club</h3>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-categoria="publicidad">
+                        <video controls muted>
+                            <source src="videos/videotrabajo3.mp4">
+                        </video>
+                        <h3>Publicidad Peppers</h3>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-categoria="videoclips">
+                        <video controls muted>
+                            <source src="videos/videotrabajo4.mp4">
+                        </video>
+                        <h3>Videoclip 3</h3>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-categoria="videoclips">
+                        <video controls muted>
+                            <source src="videos/videotrabajo5.mp4">
+                        </video>
+                        <h3>Videoclip 4</h3>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-categoria="publicidad">
+                        <video controls muted>
+                            <source src="videos/videotrabajo6.mp4">
+                        </video>
+                        <h3>Publicidad Saceem</h3>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-categoria="videoclips">
+                        <video controls muted>
+                            <source src="videos/videotrabajo7.mp4">
+                        </video>
+                        <h3>Videoclip 5</h3>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section id="contacto">
+            <div class="contactoh2">
+                <h2>¿Tenés algún proyecto? Contáctame</h2>
+            </div>
+
+            <!-- <a href="https://www.instagram.com/vntcuts/" class="contactoboton" target="_blank">
+                Solicitar presupuesto
+            </a> -->
+
+            <button type="button" class="btn btn-primary btn-lg contactoboton" data-bs-toggle="modal"
+                data-bs-target="#modalContacto">
+                Solicitar presupuesto
+            </button>
+
+            <div class="modal fade" id="modalContacto" tabindex="-1" aria-labelledby="modalContactoLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content bg-dark text-white">
+
+                        <div class="modal-header">
+                            <h2 class="modal-title fs-5" id="modalContactoLabel">Solicitar presupuesto</h2>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                                aria-label="Cerrar"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            Podés contactarte con VNTCuts por Instagram para consultar disponibilidad y presupuesto.
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+
+                            <a href="https://www.instagram.com/vntcuts/" class="btn btn-primary" target="_blank"
+                                rel="noopener">
+                                Ir a Instagram
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+
+        <p>© 2026 VNTCuts - Postproducción audiovisual profesional</p>
+
+        <div class="redes">
+
+            <a href="https://www.instagram.com/vntcuts/" target="_blank" rel="noopener" data-bs-toggle="tooltip"
+                data-bs-placement="top" title="Instagram oficial">
+                <i class="bi bi-instagram"></i>
+            </a>
+
+            <!-- <a href="https://www.instagram.com/vntcuts/">
+                <i class="bi bi-instagram"></i>
+            </a> -->
+
+            <!-- <a href="https://www.youtube.com/@vntcuts">
+                <i class="bi bi-youtube"></i>
+            </a> -->
+
+            <a href="https://www.youtube.com/@vntcuts" target="_blank" rel="noopener" data-bs-toggle="tooltip"
+                data-bs-placement="top" title="Canal de YouTube">
+                <i class="bi bi-youtube"></i>
+            </a>
+
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+
+        tooltipTriggerList.forEach(function (tooltipTriggerEl) {
+            new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+    </script>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
