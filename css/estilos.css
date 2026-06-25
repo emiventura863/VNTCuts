@@ -1,28 +1,28 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    background-color: rgb(5, 5, 5);
-    margin: 0;
+  background-color: rgb(5, 5, 5);
+  margin: 0;
 }
 
 .tagline {
-    color: rgb(180 , 180, 180);
-    font-size: 20px;
-    text-align: center;
-    margin-top: 15px;
+  color: rgb(180, 180, 180);
+  font-size: 20px;
+  text-align: center;
+  margin-top: 15px;
 }
 
 .headerinicio {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: transparent;
-    align-items: center;
-    padding: 20px 50px;
-    z-index: 1000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: transparent;
+  align-items: center;
+  padding: 20px 50px;
+  z-index: 1000;
 }
 
 /* .navegador {
@@ -35,48 +35,48 @@ body {
 } */
 
 .navbar-brand img {
-    height: 80px;
+  height: 80px;
 }
 
 .nav-link {
-    color: white;
-    font-size: 25px;
-    margin: 0 25px;
+  color: white;
+  font-size: 25px;
+  margin: 0 25px;
 }
 
 .nav-link:hover {
-    color: orange;
+  color: orange;
 }
 
 .navbar-toggler {
-    border: 1px solid white;
+  border: 1px solid white;
 }
 
 .hero {
-    height: 100vh;
-    position: relative;
+  height: 100vh;
+  position: relative;
 }
 
 .hero video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .trabajosdestacadosh2 {
-    text-align: center;
-    color: white;
-    margin-top: 150px;
-    font-size: 35px;
+  text-align: center;
+  color: white;
+  margin-top: 150px;
+  font-size: 35px;
 }
 
 .linea-seccion {
-    width: 550px;
-    height: 5px;
-    background-color: orange;
-    margin: 15px auto 60px auto;
-    margin-bottom: 100px;
+  width: 550px;
+  height: 5px;
+  background-color: orange;
+  margin: 15px auto 60px auto;
+  margin-bottom: 100px;
 }
 
 /* .contvideosdestacados{
@@ -86,47 +86,47 @@ body {
 } */
 
 .videosdestacados {
-    width: 100%;
+  width: 100%;
 }
 
 .videosdestacados video {
-    width: 100%;
-    height: 350px;
-    object-fit: cover;
-    /* display: block; */
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  /* display: block; */
 }
 
 .videosdestacados h3 {
-    font-size: 18px;
-    color: white;
-    margin-top: 10px;
-    text-align: center;
+  font-size: 18px;
+  color: white;
+  margin-top: 10px;
+  text-align: center;
 }
 
 .botonportfolio {
-    background-color: transparent;
-    font-size: 23px;
-    display: block;
-    width: fit-content;
-    margin: 50px auto;
-    color: orange;
-    border: 2px solid orange;
-    text-decoration: none;
-    padding: 30px 55px;
-    border-radius: 6px;
+  background-color: transparent;
+  font-size: 23px;
+  display: block;
+  width: fit-content;
+  margin: 50px auto;
+  color: orange;
+  border: 2px solid orange;
+  text-decoration: none;
+  padding: 30px 55px;
+  border-radius: 6px;
 }
 
 .serviciosh2 {
-    text-align: center;
-    color: white;
-    margin-top: 150px;
-    /* margin-bottom: 60px; */
-    font-size: 35px;
+  text-align: center;
+  color: white;
+  margin-top: 150px;
+  /* margin-bottom: 60px; */
+  font-size: 30px;
 }
 
 .servicios {
-    justify-content: center;
-    gap: 100px;
+  justify-content: center;
+  gap: 100px;
 }
 
 /* .contservicios{
@@ -136,194 +136,208 @@ body {
 } */
 
 .tarjetaservicios {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    min-height: 350px;
-    background-color: rgb(19, 18, 18);
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    padding: 50px 40px;
-    font-size: 22px;
-    border-radius: 10px;
-    color: white;
-    margin-bottom: 100px;
+  width: 100%;
+  height: auto;
+  background-color: rgb(19, 18, 18);
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+
+.tarjetaservicios .card-body{
+  padding: 25px 35px 25px;
 }
 
 .tarjetaservicios i {
-    font-size: 35px;
-    color: white;
+  font-size: 20px;
+  color: orange;
+  /* margin-bottom: 40px; */
+}
+
+.tarjetaservicios p {
+  font-size:20px;
+}
+
+.tarjetaservicios img {
+  /* width: 100%; */
+  height: 230px;
+  object-fit: cover;
+}
+
+.tarjetaservicios h3 {
+  margin-top: 10px;
+  font-size: 26px;
 }
 
 .contactoh2 {
-    color: white;
-    text-align: center;
-    margin-top: 80px;
-    margin-bottom: 50px;
-    font-size: 30px;
+  color: white;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  font-size: 30px;
 }
 
 .contactoboton {
-    background-color: orange;
-    font-size: 25px;
-    display: block;
-    width: fit-content;
-    margin: 50px auto;
-    color: white;
-    text-decoration: none;
-    padding: 30px 55px;
-    border-radius: 6px;
+  background-color: orange;
+  font-size: 25px;
+  display: block;
+  width: fit-content;
+  margin: 50px auto;
+  color: white;
+  text-decoration: none;
+  padding: 30px 55px;
+  border-radius: 6px;
 }
 
-.contactoboton:hover{
-    background-color: orange;
-    border-color: orange;
-    color: white;
+.contactoboton:hover {
+  background-color: orange;
+  border-color: orange;
+  color: white;
 }
 
 footer {
-    margin-top: 180px;
-    padding: 20px 40px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-    color: white;
-    gap: 30px;
+  margin-top: 180px;
+  padding: 20px 40px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: white;
+  gap: 30px;
 }
 
 footer p {
-    margin: 0;
+  margin: 0;
 }
 
 .redes {
-    display: flex;
-    gap: 30px;
-    font-size: 30px;
+  display: flex;
+  gap: 30px;
+  font-size: 30px;
 }
 
 .redes a {
-    /* text-decoration: none; */
-    color: white;
+  /* text-decoration: none; */
+  color: white;
 }
 
 .botonportfolio:hover {
-    background-color: orange;
-    color: white;
+  background-color: orange;
+  color: white;
 }
 
 /* SECCION PORTFOLIO */
 
 .headerinterno {
-    display: flex;
-    align-items: center;
-    padding: 20px 50px;
-    background-color: rgb(30, 30, 30);
+  display: flex;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: rgb(30, 30, 30);
 }
 
 .portfolio {
-    color: white;
-    text-align: center;
-    margin-top: 150px;
+  color: white;
+  text-align: center;
+  margin-top: 150px;
 }
 
 .filtroportfolio {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    margin: 80px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 80px 0;
 }
 
 .filtroportfolio button {
-    width: 180px;
-    background-color: rgb(30, 30, 30);
-    color: white;
-    border: none;
-    padding: 10px 25px;
-    border-radius: 5px;
-    border: 1px solid white;
-    cursor: pointer;
+  width: 180px;
+  background-color: rgb(30, 30, 30);
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  border: 1px solid white;
+  cursor: pointer;
 }
 
 .trabajosportfolio video {
-    width: 100%;
-    height: 350px;
-    object-fit: cover;
-    display: block;
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  display: block;
 }
 
 .trabajosportfolio h3 {
-    font-size: 18px;
-    color: white;
-    margin-top: 10px;
-    text-align: center;
+  font-size: 18px;
+  color: white;
+  margin-top: 10px;
+  text-align: center;
 }
 
 .activo {
-    background-color: orange;
-    color: white;
+  background-color: orange;
+  color: white;
 }
 
 .filtroportfolio button.activo {
-    background-color: orange;
-    color: white;
-    /* border: 1px solid orange; */
+  background-color: orange;
+  color: white;
+  /* border: 1px solid orange; */
 }
 
 /* mediaquery responsive tablet*/
 @media (max-width: 768px) {
-    .navbar-brand img {
-        height: 60px;
-    }
+  .navbar-brand img {
+    height: 60px;
+  }
 
-    .headerinicio {
-        padding: 10px 20px;
-    }
+  .headerinicio {
+    padding: 10px 20px;
+  }
 
-    .botonportfolio,
-    .contactoboton {
-        font-size: 15px;
-        padding: 20px 45px;
-    }
+  .botonportfolio,
+  .contactoboton {
+    font-size: 15px;
+    padding: 20px 45px;
+  }
 
-        .navbar-collapse {
-        text-align: right;
-        position: relative;
-    }
+  .navbar-collapse {
+    text-align: right;
+    position: relative;
+  }
 
-    .navbar-nav{
-        align-items: flex-end;
-    }
+  .navbar-nav {
+    align-items: flex-end;
+  }
 }
 
 /* mediaquery responsive celular*/
 @media (max-width: 576px) {
-    .navbar-brand img {
-        height: 40px;
-        margin-left: 0;
-    }
+  .navbar-brand img {
+    height: 40px;
+    margin-left: 0;
+  }
 
-    .linea-seccion {
-        width: 90%;
-    }
+  .linea-seccion {
+    width: 90%;
+  }
 
-    .trabajosdestacadosh2,
-    .serviciosh2 {
-        font-size: 26px;
-    }
+  .trabajosdestacadosh2,
+  .serviciosh2 {
+    font-size: 26px;
+  }
 
-    .tagline {
-        font-size: 15px;
-        padding: 10px;
-    }
+  .tagline {
+    font-size: 15px;
+    padding: 10px;
+  }
 
-    .filtroportfolio button {
-        width: 105px;
-        font-size: 13px;
-        padding: 8px 6px;
-    }
-
+  .filtroportfolio button {
+    width: 105px;
+    font-size: 13px;
+    padding: 8px 6px;
+  }
 }
