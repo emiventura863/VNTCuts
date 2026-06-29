@@ -25,15 +25,6 @@ body {
   z-index: 1000;
 }
 
-/* .navegador {
-    font-size: 30px;
-    display: flex;   
-    gap: 100px;
-    flex: 1;
-    justify-content:center;
-    border: none;
-} */
-
 .navbar-brand img {
   height: 80px;
 }
@@ -79,12 +70,6 @@ body {
   margin-bottom: 100px;
 }
 
-/* .contvideosdestacados{
-    display: flex;
-    justify-content: center;
-    gap: 150px;
-} */
-
 .videosdestacados {
   width: 100%;
 }
@@ -120,7 +105,6 @@ body {
   text-align: center;
   color: white;
   margin-top: 150px;
-  /* margin-bottom: 60px; */
   font-size: 30px;
 }
 
@@ -128,12 +112,6 @@ body {
   justify-content: center;
   gap: 100px;
 }
-
-/* .contservicios{
-    display: flex;
-    justify-content: center;
-    gap: 150px;
-} */
 
 .tarjetaservicios {
   width: 100%;
@@ -146,22 +124,20 @@ body {
   overflow: hidden;
 }
 
-.tarjetaservicios .card-body{
+.tarjetaservicios .card-body {
   padding: 25px 35px 25px;
 }
 
 .tarjetaservicios i {
   font-size: 30px;
   color: orange;
-  /* margin-bottom: 40px; */
 }
 
 .tarjetaservicios p {
-  font-size:20px;
+  font-size: 20px;
 }
 
 .tarjetaservicios img {
-  /* width: 100%; */
   height: 230px;
   object-fit: cover;
 }
@@ -220,7 +196,6 @@ footer p {
 }
 
 .redes a {
-  /* text-decoration: none; */
   color: white;
 }
 
@@ -285,7 +260,6 @@ footer p {
 .filtroportfolio button.activo {
   background-color: orange;
   color: white;
-  /* border: 1px solid orange; */
 }
 
 /* mediaquery responsive tablet*/
